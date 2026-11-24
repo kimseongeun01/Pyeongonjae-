@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>평온재 — 마음은 가까이, 관리는 더 가볍게</title>
+<meta name="description" content="현장엔 단정한 가족평장묘, 손안엔 언제든 닿는 온라인 추모관. 가족평장묘 온·오프라인 통합 추모 서비스 평온재.">
+<meta property="og:title" content="평온재 — 마음은 가까이, 관리는 더 가볍게">
+<meta property="og:description" content="현장엔 단정한 가족평장묘, 손안엔 언제든 닿는 온라인 추모관. 가족평장묘 온·오프라인 통합 추모 서비스 평온재.">
+<meta property="og:image" content="images/main-hero.jpg">
+<link rel="icon" type="image/png" href="images/logo-symbol.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#fff}
+a{color:#A85D2A}a:hover{color:#9C5526}
+.pj *{box-sizing:border-box}.pj{word-break:keep-all;overflow-wrap:anywhere;letter-spacing:-0.01em}.pj h1,.pj h2,.pj h3,.pj p{margin:0}.pj h1,.pj h2,.pj h3{letter-spacing:-0.02em}.pj :focus-visible{outline:3px solid #5A4731;outline-offset:3px}.dark :focus-visible{outline-color:#F9D9B9}
+.wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 28px;border-radius:12px;font:600 17px/1.2 inherit;text-decoration:none;white-space:nowrap;transition:background-color 160ms ease-out}
+.b-pri{background:#A85D2A;color:#fff}.b-pri:hover{background:#9C5526;color:#fff}.b-sec{background:#F9D9B9;color:#5A4731}.b-sec:hover{background:#F5CBA0;color:#5A4731}.b-kko{background:#FEE500;color:#191919}.b-kko:hover{background:#F2DA00;color:#191919}.b-gho{color:#FAF5EE;box-shadow:inset 0 0 0 1.5px #FAF5EE}.b-gho:hover{background:rgba(250,245,238,.08);color:#FAF5EE}
+.tl{color:#A85D2A;font-weight:600;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px;display:inline-flex;min-height:44px;align-items:center;border-radius:4px}.tl:hover{text-decoration-thickness:2px}
+.nav a{color:#5A4731;text-decoration:none;font-weight:500;font-size:16px;padding:10px 2px;border-radius:6px}.nav a:hover{color:#A85D2A}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){.shine{background:linear-gradient(100deg,#FFFFFF 0%,#FFFFFF 38%,#FFEBD6 46%,#F9D9B9 50%,#FFEBD6 54%,#FFFFFF 62%,#FFFFFF 100%);background-size:260% 100%;background-position:120% 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shine 3s ease-in-out 600ms 1 backwards}h1:hover .shine{background-position:-20% 0;transition:background-position 2.4s ease-in-out}}@keyframes shine{from{background-position:120% 0}to{background-position:-20% 0}}@media (prefers-reduced-motion:reduce){.shine{animation:none!important;transition:none!important;background-position:50% 0!important}}
+.b-out{color:#fff;box-shadow:inset 0 0 0 1.5px #fff}.b-out:hover{background:rgba(255,255,255,.12);color:#fff}.onimg :focus-visible{outline-color:#F9D9B9}
+.hero{display:grid;grid-template-columns:5fr 7fr;gap:56px;align-items:center}.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.g57{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:center}
+.svc{display:flex;flex-direction:column}.svc img{width:100%;aspect-ratio:4/3;border-radius:16px;display:block}.svc .bd{display:flex;flex-direction:column;flex:1}
+.steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;position:relative}.steps:before{content:"";position:absolute;left:24px;right:24px;top:23px;border-top:2px solid #D58B51}
+.ftr{display:grid;grid-template-columns:1.3fr .9fr 1.3fr 1.3fr;gap:32px}.fl a{color:#F1E6DA;text-decoration:none;display:flex;align-items:center;min-height:44px}.fl a:hover{color:#FAF5EE;text-decoration:underline}
+.fab{position:fixed;right:24px;bottom:24px;z-index:20;width:64px;height:64px;border-radius:50%;background:#FEE500;color:#191919;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(62,48,34,.25)}.mbar,.mo{display:none}
+@media (max-width:1023px){.hero,.g57{grid-template-columns:1fr;gap:32px}.hero .pic{order:-1}.g3{grid-template-columns:1fr;gap:24px}.trust{grid-template-columns:repeat(2,minmax(0,1fr))}.ftr{grid-template-columns:1fr 1fr}.nav,.hdrcta{display:none!important}.mo{display:flex}}
+@media (max-width:767px){.wrap{padding:0 20px}.sec{padding-top:64px!important;padding-bottom:64px!important}.g2{grid-template-columns:1fr;gap:16px}.btn{width:100%;min-height:48px;font-size:16px}.h1,.hero1 h1{font-size:36px!important}.hero1{min-height:640px!important}.h2{font-size:28px!important}.svc{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:start}.svc img{width:104px;height:104px;aspect-ratio:auto}.svc .tl{min-height:44px}.svc .desc{display:none}.steps{grid-template-columns:1fr;gap:20px}.steps:before{left:23px;right:auto;top:24px;bottom:24px;border-top:0;border-left:2px solid #D58B51}.step{display:grid!important;grid-template-columns:48px 1fr;column-gap:16px;text-align:left!important}.step span{margin:0!important}.trust{gap:20px}.ftr{grid-template-columns:1fr}.fl{display:grid!important;grid-template-columns:1fr 1fr}.fab,.tip{display:none!important}.mbar{display:grid}.pj{padding-bottom:64px}}
+</style>
+</head>
+<body>
+<div class="pj" style="font-family:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;color:#5A4731;background:#fff;font-size:17px;line-height:1.75">
+
+<header style="position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #E6D8C8">
+<div class="wrap" style="height:72px;display:flex;align-items:center;gap:24px">
+<a href="#top" aria-label="평온재 홈" style="display:flex;align-items:center;gap:10px;border-radius:6px"><img src="images/logo-symbol.png" alt="" style="height:36px;width:auto"><img src="images/logo-wordmark.png" alt="평온재" style="height:22px;width:auto"></a>
+<nav class="nav" aria-label="주 메뉴" style="margin-left:auto;display:flex;gap:32px">
+<a href="about.html">평온재 이야기</a><a href="#service">가족평장묘</a><a href="#service">온라인 추모관</a><a href="#service">안심 케어</a><a href="#works">시공 사례</a><a href="#visit">상담·쇼룸</a>
+</nav>
+<a class="btn b-kko hdrcta" href="#contact" style="min-height:44px;padding:0 18px;font-size:15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5C6.75 3.5 2.5 6.86 2.5 11c0 2.66 1.76 5 4.4 6.33l-.9 3.3c-.08.3.26.54.52.37l3.94-2.6c.5.06 1 .1 1.54.1 5.25 0 9.5-3.36 9.5-7.5S17.25 3.5 12 3.5z"/></svg>카카오톡 상담</a>
+<div class="mo" style="margin-left:auto;gap:4px">
+<a href="tel:0420000000" aria-label="전화 상담" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:#5A4731"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
+<button type="button" aria-label="메뉴 열기" aria-expanded="false" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:none;border:0;color:#5A4731;cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div>
+</div>
+</header>
+
+<main id="top">
+<section class="hero1 onimg" style="position:relative;min-height:800px;display:flex;align-items:flex-end;overflow:hidden;background:#3E3022">
+<img src="images/main-hero.jpg" alt="잔디 위 가족평장묘 앞에 꽃을 들고 선 가족과 QR이 새겨진 오석 명판" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 60%">
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(62,48,34,.82) 0%,rgba(62,48,34,.55) 42%,rgba(62,48,34,0) 72%)"></div>
+<div style="position:absolute;inset:auto 0 0 0;height:240px;background:linear-gradient(0deg,rgba(62,48,34,.55),rgba(62,48,34,0))"></div>
+<div class="wrap" style="position:relative;width:100%;padding-bottom:112px">
+<div style="max-width:640px">
+<p style="color:#F9D9B9;font-weight:600;font-size:16px;margin-bottom:20px">가족평장묘 온·오프라인 통합 추모 서비스</p>
+<h1 style="font-size:64px;line-height:1.2;font-weight:700;color:#fff"><span class="shine">마음은 가까이,<br>관리는 더 가볍게</span></h1>
+<p style="font-size:20px;line-height:1.7;color:#FAF5EE;margin-top:24px">현장엔 단정한 가족평장묘,<br>손안엔 언제든 닿는 온라인 추모관</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:40px">
+<a class="btn b-kko" href="#contact"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5C6.75 3.5 2.5 6.86 2.5 11c0 2.66 1.76 5 4.4 6.33l-.9 3.3c-.08.3.26.54.52.37l3.94-2.6c.5.06 1 .1 1.54.1 5.25 0 9.5-3.36 9.5-7.5S17.25 3.5 12 3.5z"/></svg>카카오톡 상담</a>
+<a class="btn b-out" href="#visit">쇼룸 방문 예약</a>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-label="평온재를 믿을 수 있는 이유" style="background:#fff;border-bottom:1px solid #E6D8C8">
+<div class="wrap trust" style="padding-top:40px;padding-bottom:40px">
+<div style="border-top:2px solid #D58B51;padding-top:16px"><p style="font-size:30px;font-weight:700;line-height:1.3">40년</p><p style="font-size:15px;line-height:1.6;color:#7A6555;margin-top:4px">대전·충청에서 석재 가공과 묘역 시공</p></div>
+<div style="border-top:2px solid #D58B51;padding-top:16px"><p style="font-size:30px;font-weight:700;line-height:1.3">정찰제</p><p style="font-size:15px;line-height:1.6;color:#7A6555;margin-top:4px">상담 전에 확인하는 패키지 기본가</p></div>
+<div style="border-top:2px solid #D58B51;padding-top:16px"><p style="font-size:30px;font-weight:700;line-height:1.3">3년 품질 보증</p><p style="font-size:15px;line-height:1.6;color:#7A6555;margin-top:4px">시공 완료 보고서와 함께 발급 · 보증 범위는 보증서 기준</p></div>
+<div style="border-top:2px solid #D58B51;padding-top:16px"><p style="font-size:30px;font-weight:700;line-height:1.3">직접 시공</p><p style="font-size:15px;line-height:1.6;color:#7A6555;margin-top:4px">석재 가공부터 시공까지 계룡석재가 직접</p></div>
+</div>
+</section>
+
+<section class="sec" style="padding:96px 0 80px">
+<div class="wrap">
+<h2 class="h2" style="font-size:36px;line-height:1.3;font-weight:700">자주 찾아뵙지 못해도,<br>마음까지 멀어진 건 아닙니다</h2>
+<p style="margin-top:12px;color:#7A6555">이런 마음, 한 번쯤 드셨나요.</p>
+<div class="g2" style="margin-top:40px">
+<blockquote style="margin:0;background:#FAF5EE;border-radius:20px;padding:36px 32px">
+<p style="font-weight:700;font-size:15px;color:#A85D2A">자녀의 마음</p>
+<p style="font-size:24px;line-height:1.5;font-weight:700;margin-top:10px">올해 추석에도 못 내려갔습니다</p>
+<p style="margin-top:12px">일과 아이들 사이에서 고향 선산은 점점 멀어지고, 벌초 때마다 마음 한쪽이 무겁습니다.</p>
+</blockquote>
+<blockquote style="margin:0;background:#FAF5EE;border-radius:20px;padding:36px 32px">
+<p style="font-weight:700;font-size:15px;color:#A85D2A">부모의 마음</p>
+<p style="font-size:24px;line-height:1.5;font-weight:700;margin-top:10px">아이들에게 짐이 되고 싶지 않아요</p>
+<p style="margin-top:12px">벌초도, 비용도, 결정도 미루지 않고 내 손으로 단정하게 준비해 두고 싶습니다.</p>
+</blockquote>
+</div>
+</div>
+</section>
+
+<section id="about" class="sec" style="background:#F1E6DA;padding:96px 0">
+<div class="wrap g57">
+<div style="display:flex;justify-content:center"><img src="images/logo-symbol.png" alt="" aria-hidden="true" style="width:min(100%,260px);height:auto"></div>
+<div>
+<p style="font-size:17px;font-weight:500;color:#A85D2A">평온재는 두 마음이 만나는 자리에서 시작했습니다.</p>
+<h2 class="h2" style="font-size:36px;line-height:1.3;font-weight:700;margin-top:12px">평온재(平溫齋),<br>평안하고 따뜻한 가족의 쉼터</h2>
+<p style="margin-top:20px;max-width:34em">무거운 벌초 대신 잔디가 자라는 가족평장묘를, 먼 길 대신 손안의 추모관을 드립니다. 노동과 미안함은 덜어내고, 일상 속 기억과 편안함은 채우는 새로운 가족 추모 문화, 평온재가 만듭니다.</p>
+<a class="tl" href="#about" style="margin-top:12px">평온재 이야기 보기</a>
+</div>
+</div>
+</section>
+
+<section id="service" class="sec" style="padding:120px 0">
+<div class="wrap">
+<h2 class="h2" style="font-size:36px;line-height:1.3;font-weight:700">현장의 묘역과 손안의 추모관, 하나로 이어집니다</h2>
+<p style="margin-top:12px;color:#7A6555">패키지 기본가는 정찰제로 공개합니다. 현장 여건에 따라 달라지는 항목은 견적서에 미리 적어 드립니다.</p>
+<div class="g3" style="margin-top:48px">
+<article class="svc">
+<img src="images/service-flat-grave.jpg" alt="잔디 위 QR이 새겨진 오석 평장 명판과 꽃" style="object-fit:cover">
+<div class="bd"><p style="color:#A85D2A;font-weight:600;font-size:15px;margin-top:20px">가족평장묘</p>
+<h3 style="font-size:22px;line-height:1.4;font-weight:700;margin-top:4px">벌초 부담을 덜어낸 잔디 평장묘</h3>
+<p class="desc" style="margin-top:10px">흩어진 조상 묘소를 한곳에, 정원처럼 낮고 단정하게 모십니다.</p>
+<p style="margin-top:12px;font-weight:600">부부형 [100만원]부터 · 정찰제</p>
+<a class="tl" href="#service" style="margin-top:auto">패키지 가격 보기</a></div>
+</article>
+<article class="svc">
+<img src="images/service-online-memorial.jpg" alt="평온재 온라인 추모관 화면 — 사진, 추모글 남기기, 가족들의 이야기" style="object-fit:contain;background:#F1E6DA">
+<div class="bd"><p style="color:#A85D2A;font-weight:600;font-size:15px;margin-top:20px">온라인 추모관</p>
+<h3 style="font-size:22px;line-height:1.4;font-weight:700;margin-top:4px">멀리 있어도, 손안에서 만나는 기억</h3>
+<p class="desc" style="margin-top:10px">평장 명판의 QR을 비추면 온라인 추모관이 열립니다. 생전 사진과 추모 글을 가족이 함께 채우고 단톡방에 나눕니다.</p>
+<p style="margin-top:12px;font-weight:600">평장묘 패키지에 기본 포함 · [N]년 운영</p>
+<a class="tl" href="#service" style="margin-top:auto">샘플 온라인 추모관 보기</a></div>
+</article>
+<article class="svc">
+<img src="images/service-care.jpg" alt="평온재 시공 완료 보고서, 품질 보증서, 모바일 QR 가이드" style="object-fit:cover">
+<div class="bd"><p style="color:#A85D2A;font-weight:600;font-size:15px;margin-top:20px">안심 케어</p>
+<h3 style="font-size:22px;line-height:1.4;font-weight:700;margin-top:4px">못 가는 날에도, 산소 소식이 도착합니다</h3>
+<p class="desc" style="margin-top:10px">정기 점검과 정돈 후 고화질 사진을 카카오톡으로 보내드립니다.</p>
+<p style="margin-top:12px;font-weight:600">연 1회 방문 [50만원]부터</p>
+<a class="tl" href="#service" style="margin-top:auto">케어 멤버십 보기</a></div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="sec dark" style="background:#3E3022;color:#FAF5EE;padding:120px 0">
+<div class="wrap" style="text-align:center">
+<h2 class="h2" style="font-size:44px;line-height:1.3;font-weight:700;color:#FAF5EE">관리는 가벼워지고,<br>사랑은 더 가까워집니다</h2>
+<p style="margin:20px auto 0;max-width:34em;color:#F1E6DA">어머니는 아이들에게 짐이 되지 않을 자리를 미리 준비했고, 아들은 멀리서도 휴대폰 하나로 어머니의 기억을 만납니다.</p>
+<a href="#top" aria-label="브랜드 필름 재생" style="position:relative;display:block;max-width:960px;margin:48px auto 0;border-radius:20px;overflow:hidden">
+<img src="images/main-film.jpg" alt="브랜드 필름 속 장면 — 통화하며 가족 소풍 같은 성묘를 떠올리는 아들" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">
+<span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(62,48,34,.25)"><span style="width:80px;height:80px;border-radius:50%;background:#FAF5EE;display:flex;align-items:center;justify-content:center"><svg width="28" height="28" viewBox="0 0 24 24" fill="#5A4731" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span></span>
+</a>
+<p style="margin-top:16px;font-size:14px;color:#F1E6DA">브랜드 필름 보기 · 자막 제공</p>
+</div>
+</section>
+
+<section class="sec" style="background:#FAF5EE;padding:120px 0 80px">
+<div class="wrap">
+<h2 class="h2" style="font-size:36px;line-height:1.3;font-weight:700">상담부터 사후 관리까지, 평온재가 끝까지 함께합니다</h2>
+<ol class="steps" style="list-style:none;padding:0;margin:56px 0 0">
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#FAF5EE;border:2px solid #D58B51;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">1</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">상담</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">카카오톡·전화·쇼룸 중 편한 방법으로</p></div></li>
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#FAF5EE;border:2px solid #D58B51;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">2</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">현장 확인</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">선산·묘소를 살피고 사진으로 공유</p></div></li>
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#FAF5EE;border:2px solid #D58B51;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">3</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">설계·견적</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">패키지별 정찰 가격으로 투명하게</p></div></li>
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#FAF5EE;border:2px solid #D58B51;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">4</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">시공</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">석재 가공부터 현장 시공까지 직접</p></div></li>
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#FAF5EE;border:2px solid #D58B51;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">5</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">온라인 추모관 개설</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">명판 QR과 연결하고, 가족 단톡방에 공유할 링크를 보내드립니다</p></div></li>
+<li class="step" style="text-align:center"><span style="position:relative;width:48px;height:48px;border-radius:50%;background:#A85D2A;border:2px solid #A85D2A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto">6</span><div><h3 style="font-size:19px;font-weight:700;margin-top:14px">안심 케어</h3><p style="font-size:15px;line-height:1.6;margin-top:4px">원하시면 시공 후 정기 관리까지</p></div></li>
+</ol>
+<div id="works" style="margin-top:64px;background:#fff;border-radius:20px;padding:28px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<div><h3 style="font-size:20px;font-weight:700">실제 시공 사례</h3><p style="font-size:15px;line-height:1.6;color:#7A6555;margin-top:4px">시공 전·후 사진은 고객 동의를 받아 순서대로 공개합니다. 진행 상황도 단계마다 사진으로 알려드립니다.</p></div>
+<a class="btn b-sec" href="#works">시공 사례 보기</a>
+</div>
+</div>
+</section>
+
+<section id="visit" class="sec" style="background:#F1E6DA;padding:96px 0">
+<div class="wrap g2" style="align-items:center;gap:64px">
+<img src="images/main-showroom.jpg" alt="햇볕이 드는 잔디 평장 묘역" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;display:block">
+<div>
+<h2 class="h2" style="font-size:36px;line-height:1.3;font-weight:700">직접 보고, 만져보고, 정하세요</h2>
+<p style="margin-top:20px">쇼룸 앞에는 실제 잔디와 평장 석재로 꾸민 샘플 정원이 있습니다. 석재의 결과 각인을 손끝으로 확인하시고, 차 한 잔 드시며 천천히 상담받으세요.</p>
+<div style="margin-top:20px;display:flex;flex-direction:column;gap:8px">
+<p style="display:flex;gap:10px;align-items:flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A85D2A" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:3px"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>대전광역시 유성구 현충원로 000</p>
+<p style="display:flex;gap:10px;align-items:flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A85D2A" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:3px"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>평일 09:00–18:00, 토 10:00–16:00 · 예약 후 방문</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px"><a class="btn b-pri" href="#contact">쇼룸 방문 예약</a><a class="btn b-sec" href="#visit">네이버 지도로 길 찾기</a></div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="sec dark" style="background:#3E3022;color:#FAF5EE;text-align:center;padding:120px 0">
+<div class="wrap">
+<h2 class="h2" style="font-size:44px;line-height:1.3;font-weight:700;color:#FAF5EE">언제든, 편하게 물어보세요</h2>
+<p style="margin-top:20px;font-size:20px;color:#F1E6DA">결정은 천천히 하셔도 괜찮습니다. 궁금하신 것부터 차근차근 안내해 드리겠습니다.</p>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:40px">
+<a class="btn b-kko" href="#contact"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5C6.75 3.5 2.5 6.86 2.5 11c0 2.66 1.76 5 4.4 6.33l-.9 3.3c-.08.3.26.54.52.37l3.94-2.6c.5.06 1 .1 1.54.1 5.25 0 9.5-3.36 9.5-7.5S17.25 3.5 12 3.5z"/></svg>카카오톡 상담</a>
+<a class="btn b-sec" href="#contact">온라인 견적 받기</a>
+<a class="btn b-gho" href="tel:0420000000"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>전화 상담 042-000-0000</a>
+</div>
+<p style="margin-top:20px;font-size:14px;color:#F1E6DA">카카오톡은 매일 밤 9시까지 답변드립니다 · 전화 평일 09:00–18:00, 토 10:00–16:00</p>
+</div>
+</section>
+</main>
+
+<footer class="dark" style="background:#3E3022;color:#F1E6DA;border-top:1px solid rgba(250,245,238,.16);font-size:15px;line-height:1.7">
+<div class="wrap" style="padding-top:56px;padding-bottom:32px">
+<div class="ftr">
+<div><div style="display:flex;align-items:center;gap:10px"><img src="images/logo-symbol-light.png" alt="" style="height:44px;width:auto"><img src="images/logo-wordmark-light.png" alt="평온재" style="height:26px;width:auto"></div><p style="margin-top:12px">마음은 가까이, 관리는 더 가볍게</p></div>
+<nav aria-label="푸터 메뉴"><p style="font-weight:700;color:#FAF5EE;margin-bottom:4px">둘러보기</p><div class="fl" style="display:flex;flex-direction:column"><a href="about.html">평온재 이야기</a><a href="#service">가족평장묘</a><a href="#service">온라인 추모관</a><a href="#service">안심 케어</a><a href="#works">시공 사례</a><a href="#visit">상담·쇼룸</a></div></nav>
+<div><p style="font-weight:700;color:#FAF5EE;margin-bottom:8px">상담 안내</p><p>카카오톡 @평온재</p><p>전화 042-000-0000</p><p>쇼룸 대전광역시 유성구 현충원로 000</p><p>평일 09:00–18:00 · 토 10:00–16:00</p></div>
+<div><p style="font-weight:700;color:#FAF5EE;margin-bottom:8px">운영사</p><p>계룡석재 · 대표 홍길동</p><p>사업자등록번호 000-00-00000</p><p>대전광역시 유성구 현충원로 000</p><p>hello@pyeongonjae.example</p></div>
+</div>
+<div class="fl" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:32px;padding-top:12px;border-top:1px solid rgba(250,245,238,.16);font-size:14px">
+<div style="display:flex;gap:20px"><a href="#top" style="color:#FAF5EE;font-weight:700">개인정보처리방침</a><a href="#top">이용약관</a></div>
+<p>© 2026 계룡석재</p>
+</div>
+</div>
+</footer>
+
+<span class="tip" aria-hidden="true" style="position:fixed;right:100px;bottom:42px;z-index:20;background:#5A4731;color:#fff;font-size:14px;line-height:1.4;padding:8px 14px;border-radius:12px;white-space:nowrap">무엇이든 편하게 물어보세요</span>
+<a class="fab" href="#contact" aria-label="카카오톡 상담"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5C6.75 3.5 2.5 6.86 2.5 11c0 2.66 1.76 5 4.4 6.33l-.9 3.3c-.08.3.26.54.52.37l3.94-2.6c.5.06 1 .1 1.54.1 5.25 0 9.5-3.36 9.5-7.5S17.25 3.5 12 3.5z"/></svg></a>
+<nav class="mbar" aria-label="빠른 상담" style="position:fixed;left:0;right:0;bottom:0;z-index:20;height:64px;grid-template-columns:repeat(3,minmax(0,1fr));background:#fff;border-top:1px solid #E6D8C8">
+<a href="#contact" style="background:#FEE500;color:#191919;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:14px;font-weight:600;text-decoration:none"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5C6.75 3.5 2.5 6.86 2.5 11c0 2.66 1.76 5 4.4 6.33l-.9 3.3c-.08.3.26.54.52.37l3.94-2.6c.5.06 1 .1 1.54.1 5.25 0 9.5-3.36 9.5-7.5S17.25 3.5 12 3.5z"/></svg>카톡 상담</a>
+<a href="tel:0420000000" style="color:#5A4731;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:14px;font-weight:600;text-decoration:none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>전화</a>
+<a href="#visit" style="color:#5A4731;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:14px;font-weight:600;text-decoration:none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>쇼룸 예약</a>
+</nav>
+</div>
+
+</body>
+</html>
